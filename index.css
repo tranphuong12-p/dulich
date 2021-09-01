@@ -144,7 +144,7 @@
       border-color: #E6E6FA;
       border: solid 1px;
       width: 95%;
-      height: 11%;
+      height: 50px;
       margin-bottom: 10px;
       padding: 0; }
     .heading form button {
@@ -219,10 +219,24 @@
       margin-left: 40px; } }
   .Rental-Services .image .col-4 {
     overflow: hidden; }
-  .Rental-Services .image img {
-    width: 355px;
-    height: 318px;
-    transform: translate(-68px); }
+  .Rental-Services .image .localtion-1 {
+    margin: 0 10px;
+    background-image: url(./imgage/2-1-488767.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 318px; }
+  .Rental-Services .image .localtion-2 {
+    margin: 0 10px;
+    background-image: url(./imgage/estato-pool-bgn-4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 318px; }
+  .Rental-Services .image .localtion-3 {
+    margin: 0 10px;
+    background-image: url(./imgage/slider-dulichphap-tangka-560x460.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 318px; }
   .Rental-Services .image h1 {
     font-family: 'font-1'; }
     @media (max-width: 479px) {
@@ -231,7 +245,7 @@
 
 .dich-vu {
   background-image: url(./imgage/ok.png);
-  background-color: #fbfbff;
+  background-color: #f5f5f5;
   padding-top: 80px;
   padding-bottom: 40px; }
   @media (max-width: 479px) {
@@ -246,28 +260,30 @@
     .dich-vu .mobile-show {
       display: block; } }
   .dich-vu .headline h2 {
-    font-size: 30px; }
+    font-size: 30px;
+    color: #424242; }
     @media (max-width: 479px) {
       .dich-vu .headline h2 {
         font-size: 20px; } }
   .dich-vu .headline h6 {
     font-size: 16px;
     width: 55%;
+    color: #9d9081;
     margin-top: -14px; }
     @media (max-width: 479px) {
       .dich-vu .headline h6 {
         width: 100%; } }
-  .dich-vu .dich-vu-type .col-6-dv {
+  .dich-vu .dich-vu-type .col-6 {
     width: 48%;
-    margin-right: 12px; }
+    padding-right: 27px; }
     @media (max-width: 479px) {
-      .dich-vu .dich-vu-type .col-6-dv {
+      .dich-vu .dich-vu-type .col-6 {
         width: 78%;
         margin-left: 45px;
         margin-top: 10px;
         margin-bottom: -25px; } }
     @media (min-width: 768px) and (max-width: 1023px) {
-      .dich-vu .dich-vu-type .col-6-dv {
+      .dich-vu .dich-vu-type .col-6 {
         margin-right: 9px; } }
   .dich-vu .dich-vu-type i {
     font-size: 35px;
@@ -289,5 +305,215 @@
       .dich-vu img {
         width: 121%;
         margin-top: 54px; } }
+
+.OFF-50 {
+  background-image: url(./imgage/22.jpg);
+  background-size: cover;
+  padding-top: 130px;
+  padding-bottom: 86px; }
+  @media (max-width: 479px) {
+    .OFF-50 {
+      padding-top: 20px;
+      padding-bottom: 20px; } }
+  .OFF-50 .off-wrapper {
+    border: solid 4px #9d8f62; }
+    .OFF-50 .off-wrapper .col-4 {
+      background-color: #9d8f62; }
+      .OFF-50 .off-wrapper .col-4 h1 {
+        font-size: 50px;
+        margin-top: 30px;
+        margin-bottom: 35px;
+        text-align: center; }
+    .OFF-50 .off-wrapper .col-7 h1 {
+      font-size: 30px;
+      color: white;
+      padding-left: 32px; }
+  .OFF-50 h6 {
+    text-align: center;
+    color: white;
+    width: 49%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 65px;
+    font-size: 16px; }
+    @media (max-width: 479px) {
+      .OFF-50 h6 {
+        width: 85%;
+        margin-top: 13px;
+        margin-bottom: 22px; } }
+  .OFF-50 button {
+    background-color: #9d8f62;
+    color: white;
+    font-size: 21px;
+    width: 27%;
+    height: 56px;
+    margin-left: 36%;
+    border-style: none; }
+    @media (max-width: 479px) {
+      .OFF-50 button {
+        width: 61%;
+        height: 14%;
+        margin-left: 20%; } }
+
+.Rental-Services-plane {
+  background-image: url(./imgage/slider2-bg-1024x341.jpg);
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center; }
+  @media (max-width: 479px) {
+    .Rental-Services-plane {
+      padding-top: 20px;
+      padding-bottom: 20px; } }
+  .Rental-Services-plane .reantal-services-logo {
+    margin-bottom: 50px; }
+    @media (max-width: 479px) {
+      .Rental-Services-plane .reantal-services-logo {
+        margin-bottom: 20px; } }
+    .Rental-Services-plane .reantal-services-logo img {
+      width: 5%; }
+      @media (max-width: 479px) {
+        .Rental-Services-plane .reantal-services-logo img {
+          width: 15%; } }
+    .Rental-Services-plane .reantal-services-logo h1 {
+      font-size: 36px;
+      margin-bottom: 15px;
+      margin-top: 10px; }
+    .Rental-Services-plane .reantal-services-logo .line {
+      width: 200px; }
+  .Rental-Services-plane .image .col-4 {
+    overflow: hidden; }
+  .Rental-Services-plane .image .localtion-1 {
+    margin: 0 10px;
+    background-image: url(./imgage/slide-3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 195px; }
+  .Rental-Services-plane .image .localtion-2 {
+    margin: 0 10px;
+    background-image: url(./imgage/toa-heftiba-195458.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 195px; }
+  .Rental-Services-plane .image .localtion-3 {
+    margin: 0 10px;
+    background-image: url(./imgage/slides_3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 195px; }
+  .Rental-Services-plane .image h4 {
+    font-size: 21px; }
+  .Rental-Services-plane .image p {
+    font-size: 15px;
+    padding-right: 10px;
+    padding-left: 9px;
+    margin-top: -20px; }
+
+.Khach-hang-trung-thanh {
+  background-image: url(./imgage/exp-bg.jpg);
+  background-size: cover;
+  padding-top: 95px;
+  padding-bottom: 85px;
+  text-align: center;
+  color: white; }
+  .Khach-hang-trung-thanh img {
+    width: 25%; }
+  .Khach-hang-trung-thanh h1 {
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: -20px; }
+  .Khach-hang-trung-thanh h6 {
+    color: #9d8f62; }
+  .Khach-hang-trung-thanh .du-an {
+    margin-bottom: 10px; }
+
+.Our-team {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center; }
+  .Our-team .our-team-headline {
+    margin-bottom: 45px; }
+  .Our-team .localtion-1 {
+    margin: 0 8px;
+    background-image: url(./imgage/fc482f7c-862a-4bac-b181-24c92190b8f0.png);
+    background-position: center;
+    background-size: cover;
+    height: 215px; }
+  .Our-team .localtion-2 {
+    margin: 0 8px;
+    background-image: url(./imgage/a5fd59d0-34ba-49ea-a60e-388fb81e88d9.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 215px; }
+  .Our-team .localtion-3 {
+    margin: 0 8px;
+    background-image: url(./imgage/fe20a2a1-02ad-4510-a595-064da06f9f09.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 215px; }
+  .Our-team .localtion-4 {
+    margin: 0 8px;
+    background-image: url(./imgage/3d6cfab4-b0fa-485c-929e-d83b055a1920.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 215px; }
+  .Our-team h6 {
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: -10px; }
+  .Our-team .line1 {
+    width: 210px;
+    border-top: 1px solid #c3dbdb;
+    margin: auto; }
+
+.footer {
+  background-image: url(./imgage/patt.png);
+  padding-top: 50px;
+  padding-bottom: 85px;
+  color: #9d8e5f; }
+  @media (max-width: 479px) {
+    .footer {
+      text-align: center; } }
+  .footer .mobile-show {
+    display: none; }
+  @media (max-width: 479px) {
+    .footer .mobile-hide {
+      display: none; } }
+  @media (max-width: 479px) {
+    .footer .mobile-show {
+      display: block; } }
+  .footer h5 {
+    font-size: 18px; }
+  .footer h3 {
+    font-size: 24px;
+    margin-top: -20px; }
+  .footer .adress {
+    width: 50%;
+    margin-top: -15px; }
+    @media (max-width: 479px) {
+      .footer .adress {
+        width: 87%;
+        margin-top: -15px;
+        margin-left: 25px; } }
+  .footer .line {
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 55px; }
+    @media (max-width: 479px) {
+      .footer .line {
+        margin-bottom: 25px; } }
+  .footer input {
+    width: 95%;
+    height: 36px;
+    margin-bottom: 13px; }
+  .footer button {
+    background-color: #9d8f62;
+    color: white;
+    width: 35%;
+    height: 35px;
+    border-style: none; }
+  .footer .textarea {
+    width: 95%;
+    height: 133px;
+    padding-bottom: 95px; }
 
 /*# sourceMappingURL=index.css.map */

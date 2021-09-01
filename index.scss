@@ -187,7 +187,7 @@ $desktop-width: 1024px;
             border-color: #E6E6FA;
             border: solid 1px;
             width: 95%;
-            height: 11%;
+            height: 50px;
             margin-bottom:10px;
             padding: 0;
             
@@ -277,11 +277,32 @@ $desktop-width: 1024px;
     .col-4{
       overflow: hidden;
     }
-    img{
-      width: 355px;
+    .localtion-1{
+      margin: 0 10px;
+      background-image:url(./imgage/2-1-488767.jpg);
+      background-position: center;
+      background-size: cover;
       height: 318px;
-      transform: translate(-68px);
     }
+    .localtion-2{
+      margin: 0 10px;
+      background-image:url(./imgage/estato-pool-bgn-4.jpg);
+      background-position: center;
+      background-size: cover;
+      height: 318px;
+    }
+    .localtion-3{
+      margin: 0 10px;
+      background-image:url(./imgage/slider-dulichphap-tangka-560x460.jpg);
+      background-position: center;
+      background-size: cover;
+      height: 318px;
+    }
+    // // img{
+    // //   width: 355px;
+    // //   height: 318px;
+    // //   transform: translate(-68px);
+    // }
     h1{
       font-family: 'font-1';
       @include mobile(){
@@ -292,7 +313,7 @@ $desktop-width: 1024px;
 }
 .dich-vu{
   background-image: url(./imgage/ok.png);
-  background-color:    #fbfbff;
+  background-color:    #f5f5f5;
   padding-top: 80px;
   padding-bottom: 40px;
   @include mobile(){
@@ -315,6 +336,7 @@ $desktop-width: 1024px;
   .headline{
     h2{
       font-size: 30px;
+      color: #424242;
       @include mobile(){
         font-size: 20px;
       }
@@ -322,6 +344,7 @@ $desktop-width: 1024px;
     h6{
       font-size: 16px;
       width: 55%;
+      color: #9d9081;
       margin-top: -14px;
       @include mobile(){
         width: 100%;
@@ -329,9 +352,9 @@ $desktop-width: 1024px;
     }
   }
   .dich-vu-type{
-    .col-6-dv{
+    .col-6{
       width: 48%;
-      margin-right: 12px;
+      padding-right: 27px;
       @include mobile(){
         width: 78%;
         margin-left: 45px;
@@ -366,5 +389,258 @@ $desktop-width: 1024px;
       width: 121%;
       margin-top: 54px;
     }
+  }
+}
+.OFF-50{
+  background-image: url(./imgage/22.jpg);
+  background-size: cover;
+  padding-top: 130px;
+  padding-bottom: 86px;
+  @include mobile(){
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .off-wrapper{
+    border: solid 4px #9d8f62;
+    .col-4{
+      background-color:#9d8f62;
+      h1{
+        font-size: 50px;
+        margin-top:30px ;
+        margin-bottom: 35px;   
+        text-align: center;  
+      }
+    }
+    .col-7{
+      h1{
+        font-size: 30px;
+        color: white;
+         padding-left: 32px;
+      }
+    }
+  }
+  h6{
+    text-align: center;
+    color: white;
+    width: 49%;
+    @include mobile(){
+      width: 85%;
+      margin-top: 13px;
+      margin-bottom: 22px;
+    }
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 65px;
+    font-size: 16px;
+  }
+  button{
+    background-color: #9d8f62;
+    color: white;
+    font-size: 21px;
+    width: 27%;
+    height: 56px;
+    margin-left: 36%;
+    border-style: none;
+    @include mobile(){
+      width: 61%;
+      height: 14%;
+      margin-left: 20%;
+    }
+  }
+}
+.Rental-Services-plane{
+  background-image: url(./imgage/slider2-bg-1024x341.jpg);
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+  @include mobile(){
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .reantal-services-logo{
+    margin-bottom: 50px;
+    @include mobile(){
+      margin-bottom: 20px;
+    }
+    img{
+      width: 5%;
+      @include mobile(){
+        width: 15%;
+      }
+    }
+    h1{
+      font-size: 36px;
+      margin-bottom: 15px;
+      margin-top: 10px;
+    }
+    .line{
+      width: 200px;
+    }
+  }
+  .image{
+    .col-4{
+      overflow: hidden;
+    }
+    .localtion-1{
+      margin: 0 10px;
+      background-image:url(./imgage/slide-3.jpg);
+      background-position: center;
+      background-size: cover;
+      height:195px;
+    }
+    .localtion-2{
+      margin: 0 10px;
+      background-image:url(./imgage/toa-heftiba-195458.jpg);
+      background-position: center;
+      background-size: cover;
+      height:195px;
+    }
+    .localtion-3{
+      margin: 0 10px;
+      background-image:url(./imgage/slides_3.jpg);
+      background-position: center;
+      background-size: cover;
+      height:195px;
+    }
+    h4{
+      font-size: 21px;
+    }
+    p{
+      font-size: 15px;
+      padding-right: 10px;
+      padding-left: 9px;
+      margin-top: -20px;
+    }
+  }
+}
+.Khach-hang-trung-thanh{
+  background-image: url(./imgage/exp-bg.jpg);
+  background-size: cover;
+  padding-top: 95px;
+  padding-bottom: 85px;
+  text-align: center;
+  color: white;
+  img{
+    width: 25%;
+  }
+  h1{
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: -20px;
+  }
+  h6{
+    color: #9d8f62;
+  }
+  .du-an{
+    margin-bottom: 10px;
+  }
+}
+.Our-team{
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+  .our-team-headline{
+    margin-bottom: 45px;
+  }
+  .localtion-1{
+    margin: 0 8px;
+    background-image:url(./imgage/fc482f7c-862a-4bac-b181-24c92190b8f0.png);
+    background-position: center;
+    background-size: cover;
+    height:215px;
+  }
+  .localtion-2{
+    margin: 0 8px;
+    background-image:url(./imgage/a5fd59d0-34ba-49ea-a60e-388fb81e88d9.jpg);
+    background-position: center;
+    background-size: cover;
+    height:215px;
+  }
+  .localtion-3{
+    margin: 0 8px;
+    background-image:url(./imgage/fe20a2a1-02ad-4510-a595-064da06f9f09.jpg);
+    background-position: center;
+    background-size: cover;
+    height:215px;
+  }
+  .localtion-4{
+    margin: 0 8px;
+    background-image:url(./imgage/3d6cfab4-b0fa-485c-929e-d83b055a1920.jpg);
+    background-position: center;
+    background-size: cover;
+    height:215px;
+  }
+  h6{
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: -10px;
+  }
+  .line1{
+    width: 210px;
+    border-top: 1px solid #c3dbdb;
+    margin: auto;
+  }
+}
+.footer{
+  background-image: url(./imgage/patt.png);
+  padding-top: 50px;
+  padding-bottom: 85px;
+  color: #9d8e5f;
+  @include mobile(){
+    text-align: center;
+  }
+  .mobile-show{
+    display: none;
+  }
+  .mobile-hide{
+    @include mobile(){
+        display: none;
+    }
+  }
+  .mobile-show{
+    @include mobile(){
+        display: block;
+    }
+  }
+  h5{
+    font-size: 18px;
+  }
+  h3{
+    font-size: 24px;
+    margin-top: -20px;
+  }
+  .adress{
+    width: 50%;
+    margin-top: -15px;
+    @include mobile(){
+      width: 87%;
+      margin-top: -15px;
+      margin-left: 25px;
+    }
+  }
+  .line{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 55px;
+    @include mobile(){
+      margin-bottom: 2 5px;
+    }
+  }
+  input{
+    width: 95%;
+    height: 36px;
+    margin-bottom: 13px;
+  }
+  button{
+    background-color: #9d8f62;
+    color: white;
+    width: 35%;
+    height: 35px;
+    border-style: none;
+  }
+  .textarea{
+    width: 95%;
+    height: 133px;
+    padding-bottom: 95px;
   }
 }
